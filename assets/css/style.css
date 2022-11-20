@@ -1,0 +1,42 @@
+body {
+   
+    background-color: black;
+    color: #ffff
+
+}
+.navbar {
+    background-color: #fff !important;
+    transition: background-color 200ms linear;
+  }
+#destacados .image-top {
+
+    height: 278px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+
+}
+.card-title{
+    color: #ffff;
+    text-align: left;
+}
+.card-text{
+    color: #ffff;
+}
+
+#tarjetas {
+    background-color: info;
+}
+
+h2 {
+    text-align: center;
+    color: #ffff;
+}
+
+#iconos{
+  display: flex;
+  justify-content: space-around ;
+    
+}
+
