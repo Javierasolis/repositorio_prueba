@@ -14,22 +14,27 @@
 </head>
 <body>
     <!--Navbar-->
-    <nav class="navbar fixed-top bg-light">
+    <div id="navbar">
+    <nav class="navbar navbar-dark fixed-top text-white">
         <div class="container-fluid">
-          <a class="navbar-brand" href="assets/img/viajes.svg">Viajes Chile</a>
+          <a class="navbar-brand" href="#">
+            <img src="assets/img/viajes.svg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+            Viajes Chile
+          </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-link" aria-current="page" href="#">Inicio</a>
-              <a class="nav-link" href="#">Quienes Somos</a>
-              <a class="nav-link" href="#">Destacados</a>
-              <a class="nav-link">Contacto</a>
+            <div class="navbar-nav aria-current ">
+              <a id="inicio" class="nav-link" href="aria-current">Inicio</a>
+              <a id="quienes" class="nav-link" href="aria-current">Quienes Somos</a>
+              <a id="destacados" class="nav-link" href="aria-current">Destacados</a>
+              <a id="contacto" class="nav-link" href="#">Contacto</a>
             </div>
           </div>
         </div>
       </nav>
+    </div>
 <!--Carrusel-->
 
 <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
@@ -61,7 +66,7 @@
 
   <!--Información-->
   <section class="container d-none d-sm-none d-md-block">
-  <h2>¿QUIÉNES SOMOS?</h2>
+  <h2 class="display-4 fw-normal fs-3 text-center my-4">¿QUIÉNES SOMOS?</h2>
   <hr>
   <div class="container text-start">
     <div class="row">
@@ -88,7 +93,7 @@
 </section>
   
   <!--Contenido-->
-  <h2>DESTACADOS</h2>
+  <h2 class="display-4 fw-normal fs-3 text-center my-4">DESTACADOS</h2>
   <hr>
   <div class="container">
     <section id="destacados" class="my-1 mx-3 py-1">
@@ -148,6 +153,12 @@
     
         </div>
       </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</div>
                 
  <!--Contactanos-->
   <section id="Contacto" class="container my-3 py-3">

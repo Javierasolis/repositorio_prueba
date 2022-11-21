@@ -20,3 +20,16 @@ $( "#enviar" ).tooltip({
     alert("El correo fue enviado correctamente");
     })
 })
+
+var scrollSpy = new bootstrap.ScrollSpy(document.body, {
+  target: '#inicio'
+})
+var scrollSpy = new bootstrap.ScrollSpy(document.body, {
+  target: '#quienes'
+})
+var scrollSpy = new bootstrap.ScrollSpy(document.body, {
+  target: '#destacados'
+})
+var scrollSpy = new bootstrap.ScrollSpy(document.body, {
+  target: '#contacto'
+})
